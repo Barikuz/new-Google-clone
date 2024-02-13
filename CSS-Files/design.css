@@ -1,0 +1,261 @@
+
+/**************** Page's Top Line Customizations ****************/
+
+    /* General Customizations on the Top Line */
+    nav {
+        padding: 6px;
+        height: 60px;
+    }
+
+    nav p{
+        cursor: pointer;
+    }
+
+    .page-top-line{
+        display: block;
+        height: 60px;
+        width: 100%;
+        min-width:auto;
+        color:rgba(0,0,0,.87);
+        font-size:13px;
+    }
+
+    .page-top-line-subline{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        height: 48px;
+        line-height: 27px;
+        padding-right: 4px;
+    }
+
+    .page-top-line-div1,.page-top-line-div2 {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        user-select: none;
+    }
+    /* General Customizations on the Top Line */
+
+
+    /* Customizations of Elements in Right of the Page's Top Line */
+    .page-top-line-div1 div{
+        padding:2px 15px 0px 0px;
+    }
+
+    .page-top-line-div2 div {
+        width: 48px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    a img:hover{
+        background-color: #f2f2f2;
+        border-radius: 50%;
+    }
+
+    a.img {
+        margin-bottom: -9.4px;
+    }
+    /* Customizations of Elements in Right of the Page's Top Line */
+
+/**************** Page's Top Line Customizations ****************/
+
+
+
+/**************** Page's Middle Customizations ****************/
+
+    /*Google Icon Customizations*/
+    section[style = "height: calc(100% - 560px);"] > div {
+        display: flex;
+        align-items:end;
+        min-height: 92px;
+        max-height: 290px;
+        padding-bottom: 12px;
+    }
+    /*Google Icon Customizations*/
+
+
+
+    /*Searchbar Customizations*/
+    .searchbar{
+        display: flex;
+        flex-direction: row;
+        height: 46px;
+        background: #fff;
+        border: 1px solid #dfe1e5;
+        border-radius: 24px;
+    }
+
+    .search-textarea-div {
+        display: flex;
+        flex-wrap: wrap;
+        flex: 1;
+        margin-top: 11px;
+        margin-bottom: 8px;
+        padding-right: 4px;
+    }
+    /*Searchbar Customizations*/
+
+
+
+    /* Customizations of Icons in the Search Bar */
+    .search-textarea-div textarea{
+        display: flex;
+        flex: 1;
+        margin: 0px;
+        padding: 0px;
+        height: 22px;
+        border: 0px;
+        background-color: transparent;
+        line-height: 22px;
+        font-size: 16px;
+        font-family: Arial,sans-serif;
+        resize: none;
+        outline: none;
+        word-wrap: break-word;
+    }
+
+    .magnifier-div {
+        display: flex;
+        align-items: center;
+        padding-right: 13px;
+    }
+
+    .right-icons {
+        display: flex;
+        align-items: center;
+        width: 24px;
+        height: 44px;
+        padding: 0px 8px;
+    }
+    /* Customizations of Icons in the Search Bar*/
+
+
+
+    /* Button Customizations*/
+    .buttons-div {
+        height: 70px;
+        padding-top: 18px;
+        text-align: center;
+    }
+
+    button {
+        height: 36px;
+        margin: 11px 4px;
+        padding: 0px 15px;
+        min-width: 54px;
+        background-color: #f8f9fa;
+        border: 1px solid #f2f2f2;
+        border-radius: 4px;
+        color: #5f6368;
+        font-size: 14px;
+        cursor: pointer;
+        user-select: none;
+    }
+
+        /* Gives Shadows to Elements */
+        .searchbar:hover {
+            -webkit-box-shadow: -1px 1px 4px 2px rgba(230,230,230,1);
+            -moz-box-shadow: -1px 1px 4px 2px rgba(230,230,230,1);
+            box-shadow: -1px 1px 4px 2px rgba(230,230,230,1);
+        }
+
+        .buton1:hover {
+            border: 1px solid #dadce0 ;
+            -webkit-box-shadow: 0px 1px 1px 0px rgba(148,148,148,0.3);
+            -moz-box-shadow: 0px 1px 1px 0px rgba(148,148,148,0.3);
+            box-shadow: 0px 1px 1px 0px rgba(148,148,148,0.3);
+        }
+
+        .buton2:hover {
+            border: 1px solid #dadce0 ;
+            -webkit-box-shadow: 0px 1px 1px 0px rgba(148,148,148,0.3);
+            -moz-box-shadow: 0px 1px 1px 0px rgba(148,148,148,0.3);
+            box-shadow: 0px 1px 1px 0px rgba(148,148,148,0.3);
+        }
+        /* Gives Shadows to Buttons */
+
+    /* Button Customizations*/
+
+/**************** Page's Middle Customizations ****************/
+
+
+
+/**************** Page's Bottom Line Customizations ****************/
+
+    /* Customizations on the Bottom Line in Footer */
+    .end {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0px 20px 0px;
+        flex-wrap: wrap;
+    }
+
+    .end div {
+        padding: 15px;
+    }
+
+    .end>div {
+        display: flex;
+        flex-direction: row;
+        padding: 0px;
+        min-width: 30%;
+    }
+    /* Customizations on the Bottom Line in Footer */
+
+
+    
+    /* General Other Customizations */
+    footer {
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        padding-bottom: 1px;
+    }
+
+    footer > div {
+        background: #f2f2f2;
+        box-sizing: border-box;
+        width: 100%;
+        display: flex;
+    }
+    /* General Other Customizations */
+
+/**************** Page's Bottom Line Customizations ****************/
+
+
+
+/**************** Page's General Other Customizations ****************/
+
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    min-width: 400px;
+}
+
+body, input, button {
+    font-size: 14px;
+    font-family: Arial,sans-serif;
+    color: #202124;
+}
+
+a {
+    text-decoration: none;
+    color:#202124 ;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+img {
+    cursor: pointer;
+}
+
+
+/**************** Page's General Other Customizations ****************/
